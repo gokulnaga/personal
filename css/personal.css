@@ -1,35 +1,75 @@
 header{
+	display: block;
+	margin: 0px;
+	padding: 20px;
+	color: white;
 	background-color: black;
+
 	position: sticky;
 	z-index: 1;
 }
 
+header h1{
+	display: inline-block;
+}
+
+
+
+header a{
+	display: inline-block;
+	color: white;
+	float: right;
+	margin: 15px;
+	padding: 5px;
+	text-decoration: none;
+	transition: all .1s linear;
+}
+
+header a:hover{
+	
+	transform: translateY(-10px) scale(1.5,1.5);
+	
+}
+
 .bigbox1{
 	width:auto;
-	height: 300px;
+	height: 350px;
+	padding: 20px 20px 50px 100px;
 	box-sizing: border-box;
 	display: block;
 	background-color: violet;
 	margin: 50px;
+	
 }
+
 
 .box1{
 	width:auto;
 	height: 200px;
-	display: inline;
-	margin: 20px;
-	background-color: green;
+	display: inline-block;
+	margin-left: 20px;
+	
 	float: left;
+	transition: all 0.1s linear;
+}
+
+.box1:hover{
+	transform: translateX(20px) scale(1.1, 1.1);
 }
 
 .box2{
 	width: 200px;
 	height: 200px;
 	margin: 20px;
-	display: inline;
+	display: inline-block;
 	background-color: blue;
 	float: right;
+	transition: all 0.1s linear;
 }
+.box2:hover{
+	transform: translateX(-20px) scale(1.1, 1.1);
+}
+
 
 .bigbox2{
 	width: auto;
@@ -45,7 +85,7 @@ header{
 	height: 200px;
 	display:inline;
 	margin: 20px;
-	background-color: red;
+	
 	float: left;
 }
 .box4{
@@ -60,4 +100,10 @@ header{
 img{
 	height: 200px;
 	width: 200px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px;
 }
