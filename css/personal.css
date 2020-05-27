@@ -1,3 +1,9 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	line-height: 30px;
+	background-color: #030303;
+}
 header{
 	display: block;
 	margin: 0px;
@@ -11,6 +17,13 @@ header{
 
 header h1{
 	display: inline-block;
+}
+
+
+h1,h2{
+	font-family: 'Atma', cursive;
+	font-size: 35px;
+	color:white;
 }
 
 
@@ -33,57 +46,68 @@ header a:hover{
 
 .bigbox1{
 	width:auto;
-	height: 350px;
-	padding: 20px 20px 50px 50px;
-	text-align: center;
-	box-sizing: border-box;
+	height:550px;
+	padding: 20px 20px 50px 100px;
 	display: block;
-	background-image : linear-gradient(to right, rgb(181, 182, 185), rgb(3, 3, 3));
-	
+	background-image: url(https://images.unsplash.com/photo-1589904072217-0b4f1081a4a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
 	margin: auto;
+	margin-top: 10px;
 	
+}
+
+.bigbox1:hover{
+	text-decoration: underline;
+
 }
 
 
 .box1{
-	width:auto;
+	width:600px;
 	height: 200px;
 	display: inline-block;
 	margin-left: 10px;
-	
 	float: left;
 	transition: all 0.1s linear;
 }
 
 .box1:hover{
-	transform: translateX(20px) scale(1.1, 1.1);
+	font-weight: bold;
+	transform: translateY(-20px) ;
 }
 
 .box2{
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 400px;
 	margin: 20px;
 	display: inline-block;
 	background-image : linear-gradient(to right, rgb(3, 3, 3),rgb(181, 182, 185));
-	
 	float: right;
 	transition: all 0.1s linear;
 }
+
 .box2:hover{
 	transform: translateX(-20px) scale(1.1, 1.1);
 }
 
 
 .bigbox2{
-	width: auto;
-	height: 300px;
-	box-sizing: border-box;
+	width:auto;
+	height: 550px;
+	padding: 20px 20px 50px 100px;
 	display: block;
-	background-color: grey;
+	background-image: url(https://images.unsplash.com/photo-1589790852378-ba9798083481?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 .box3{
-	width: auto;
+	width:600px;
 	height: 200px;
 	display:inline;
 	margin: 20px;
@@ -91,8 +115,8 @@ header a:hover{
 	float: left;
 }
 .box4{
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 400px;
 	margin: 20px;
 	display: inline;
 	background-color: yellow;
@@ -100,12 +124,37 @@ header a:hover{
 }
 
 img{
-	height: 200px;
-	width: 200px;
+	height: 400px;
+	width: 400px;
 }
 
 footer{
-	background-color: black;
+	display: block;
 	color: white;
-	padding: 20px;
+	
+	font-size: 15px;
+	background-color:black;
+	padding: 27px;
+}
+footer p{
+	
+	margin: 0;
+	
+}
+footer a{
+	color: #696969;
+	float: right;
+	transition: all 0.1s linear;
+}
+
+footer a:hover{
+	transform: scale(1.1,1.1);
+}
+
+footer img{
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	
 }
