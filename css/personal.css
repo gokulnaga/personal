@@ -82,33 +82,26 @@ header a:hover{
 
 
 .bigbox2{
-	width:auto;
-	height: 550px;
-	padding: 20px 20px 50px 100px;
+	width:80%;
+	height:auto;
+	padding: 20px 20px 20px 20px;
 	display: block;
-	background-image: url(https://images.unsplash.com/photo-1589790852378-ba9798083481?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-image: url(https://images.unsplash.com/photo-1589904072217-0b4f1081a4a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
     background-size: 100% 100%;
 	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	
 }
 .box3{
-	width:600px;
-	height: 200px;
-	display:inline;
-	margin: 20px;
-	
-	float: left;
+	font-weight: bold;
+	transition: all 0.1s linear;
 }
 .box4{
-	width: 400px;
-	height: 400px;
-	margin: 20px;
-	display: inline;
-	background-color: yellow;
+	
 	float: right;
+	transition: all 0.1s linear;
 }
 
 img{
