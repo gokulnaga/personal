@@ -36,6 +36,7 @@ header a{
 	padding: 5px;
 	text-decoration: none;
 	transition: all .1s linear;
+	
 }
 
 header a:hover{
