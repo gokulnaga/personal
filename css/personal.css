@@ -46,7 +46,7 @@ header a:hover{
 
 .bigbox1{
 	width:80%;
-	height:700px;
+	height:auto;
 	padding: 20px 20px 20px 20px;
 	display: block;
 	background-image: url(https://images.unsplash.com/photo-1589904072217-0b4f1081a4a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
@@ -58,39 +58,26 @@ header a:hover{
 	
 }
 
-.bigbox1:hover{
+.bigbox1 h1:hover{
 	text-decoration: underline;
 
 }
 
 
 .box1{
-	width:40%;
-	height: 200px;
-	display: inline-block;
-	float: left;
+	font-weight: bold;
 	transition: all 0.1s linear;
 }
 
-.box1:hover{
-	font-weight: bold;
-	transform: translateY(-20px) ;
-}
 
 .box2{
-	width: 40%;
-	height: 400px;
-	margin-right: 20px;
-	margin-top: 60px;
-
-	display: inline-block;
-	background-image : linear-gradient(to right, rgb(3, 3, 3),rgb(181, 182, 185));
+	
 	float: right;
 	transition: all 0.1s linear;
 }
 
 .box2:hover{
-	transform: translateX(-20px) scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
 }
 
 
@@ -125,8 +112,8 @@ header a:hover{
 }
 
 img{
-	height: 400px;
-	width: 450px;
+	height:300px;
+	width: 300px;
 }
 
 footer{
